@@ -1,7 +1,6 @@
-# tableau-challenge
-https://public.tableau.com/app/profile/robert.salazar/viz/tableau-challenge_16521299158870/Story
 # Tableau Homework - Citi Bike Analytics
-
+Included is the [link](https://public.tableau.com/app/profile/robert.salazar/viz/tableau-challenge_16521299158870/Story) to the tableau public doman housing the models.
+- - -
 ![Citi-Bikes](images/citi-bike-station-bikes.PNG)
 
 Congratulations on your new job! As the new lead analyst for the [New York Citi Bike](https://en.wikipedia.org/wiki/Citi_Bike) Program, you are now responsible for overseeing the largest bike sharing program in the United States. In your new role, you will be expected to generate regular reports for city officials looking to publicize and improve the city program.
@@ -14,121 +13,35 @@ However, while the data has been regularly updated, the team has yet to implemen
 <p align="center">
   <img src="images/map.PNG" />
 </p>
-**Your task in this assignment is to aggregate the data found in the Citi Bike Trip History Logs and find two unexpected phenomena.** 
 
-**Design 2-5 visualizations for each discovered phenomena (4-10 total). You may work with a timespan of your choosing. Optionally, you may merge multiple datasets from different periods.** 
-
-**The following are some questions you may wish to tackle. Do not limit yourself to these questions; they are suggestions for a starting point. Be creative!**
-
-* How many trips have been recorded total during the chosen period?
-
-* By what percentage has total ridership grown?
-
-* How has the proportion of short-term customers and annual subscribers changed?
-
-* What are the peak hours in which bikes are used during summer months?
-
-* What are the peak hours in which bikes are used during winter months?
-
-* Today, what are the top 10 stations in the city for starting a journey? (Based on data, why do you hypothesize these are the top locations?)
-
-* Today, what are the top 10 stations in the city for ending a journey? (Based on data, why?)
-
-* Today, what are the bottom 10 stations in the city for starting a journey? (Based on data, why?)
-
-* Today, what are the bottom 10 stations in the city for ending a journey (Based on data, why?)
-
-* Today, what is the gender breakdown of active participants (Male v. Female)?
-
-* How effective has gender outreach been in increasing female ridership over the timespan?
-
-* How does the average trip duration change by age?
-
-* What is the average distance in miles that a bike is ridden?
-
-* Which bikes (by ID) are most likely due for repair or inspection in the timespan?
-
-* How variable is the utilization by bike ID?
-
-**Next, as a chronic over-achiever:**
-
-* Use your visualizations (does not have to be all of them) to design a dashboard for each phenomena.
-* The dashboards should be accompanied with an analysis explaining why the phenomena may be occuring. 
-
-**City officials would also like to see one of the following visualizations:**
-
-* **Basic:** A static map that plots all bike stations with a visual indication of the most popular locations to start and end a journey with zip code data overlaid on top.
-
-* **Advanced:** A dynamic map that shows how each station's popularity changes over time (by month and year). Again, with zip code data overlaid on the map.
-
-* The map you choose should also be accompanied by a write-up unveiling any trends that were noticed during your analysis.
-
-**Finally, create your final presentation**
-
-* Create a Tableau story that brings together the visualizations, requested maps, and dashboards.
-* This is what will be presented to the officials, so be sure to make it professional, logical, and visually appealing. 
-
-## Considerations
-
-Remember, the people reading your analysis will **NOT** be data analysts. Your audience will be city officials, public administrators, and heads of New York City departments. Your data and analysis needs to be presented in a way that is focused, concise, easy-to-understand, and visually compelling. Your visualizations should be colorful enough to be included in press releases, and your analysis should be thoughtful enough for dictating programmatic changes. 
-
-## Submission 
-
-Your final submission should include:
-
-* A link to your Tableau Public workbook that includes: 
-  * 4-10 Total "Phenomenon" Visualizations 
-  * 2 Dashboards
-  * 1 City Official Map
-  * 1 Story 
-* A text or markdown file with your analysis on the phenomenons you uncovered from the data.
-
-## Sharing Your Work
-In order to share your work, we are asking that you will save your workbook as a .twbx file so that your TA's can grade them.
-
-To save your workbook as a .twbx file, you will just need to select "Save As..." from the "File" dropdown. Then, select the .twbx option.
-
-## Assessment
-
-Your final product will be assessed on the following metrics:
-
-* Analytic Rigor
-
-* Readability
-
-* Visual Attraction
-
-
-## Hints
-
-* You may need to get creative in how you combine each of the CSV files. Don't just assume Tableau is the right tool for the job. At this point, you have a wealth of technical skills and research abilities. Dig for an approach that works and just go with it.
-
-* Don't just assume the CSV format hasn't changed since 2013. Subtle changes to the formats in any of your columns can blockade your analysis. Ensure your data is consistent and clean throughout your analysis. (Hint: Start and End Time change at some point in the history logs).
-
-* Consider building your visualizations with small extracts of the data (i.e. single files) before attempting to import the whole thing. What you will find is that importing all 20+ million records of data will create performance issues quickly. Welcome to "Big Data."
-
-* While utilizing all of the data may seem like a nice power play, consider the time-course in making your analysis. Is data from 2013 the most relevant for making bike replacement decisions today? Probably not. Don't let overwhelming data fool you. Ground your analysis in common sense.
-
-* Remember, data alone doesn't "answer" anything. You will need to accompany your data visualizations with clear and directed answers and analysis.
-
-* As is often the case, your clients are asking for a LOT of answers. Be considerate about their need-to-know and the importance of not "cramming in everything". Of course, answer each question, but do so in a way that is organized and presentable.
-
-* Since this is a project for the city, spend the appropriate time thinking through decisions on color schemes, fonts, and visual story-telling. The Citi Bike program has a clear visual footprint. As a suggestion, look for ways to have your data visualizations match their aesthetic tones.
-
-* Pay attention to labels. What exactly is "time duration"? What's the value of "age of birth"? You will almost certainly need calculated fields to get what you need.
-
-* Keep a close eye for obvious outliers or false data. Not everyone who signs up for the program is answering honestly.
-
-* In answering the question of "why" a phenomenon is occurring, consider adding other pieces of information on socioeconomic or other geographic data. Tableau has a map "layer" feature that you may find handy.
-
-* Don't be afraid to manipulate your data and play with settings in Tableau. Tableau is meant to be explored. We haven't covered all that you need -- so you will need to keep an eye out for new tricks.
-
-* Treat this as a serious endeavor! This is an opportunity to show future employers that you have what it takes to be a top-notch analyst. 
-
-* Good luck!
-
-## Rubric
-
-[Unit 18 Rubric - Tableau Homework - Citi Bike Analytics](https://docs.google.com/document/d/11hlhJnKmEJgRYL3mUxRcdrz4AIxBU5PXW5fYrRYvgW8/edit?usp=sharing)
-
+The map above shows clustering of stations by zip code and county. Further I added age groups by county to try to get as much insight as possible in one map.
+This map was the base for all further models and analysis. 
 - - -
+
+## Age and Gender Demographics
+<p align="center">
+  <img src="images/dash1.PNG" />
+</p>
+
+From there I extrapolated further by creating an average age model for each gender represented in the data. Also, an average ride time graphed by each genders designated ride time for the month of January. While the trend line shows all observed genders to be at a decline it is safe to assume that female riders on average are riding more than males. This is shown in the model by the trendline sloping negative at a lesser intensity than that of the male rider. This shows that there has been some progress in Citybikes initiative to increase female ridership. 
+- - -
+## Customer vs Subscriber Demographics
+<p align="center">
+  <img src="images/dash2.PNG" />
+</p>
+
+More people riding bikes are regular customers while the other smaller quantity of riders belong to those who pay a subscription. Interestingly enough, the average ride times seemed to spike in the older ages. This could either be an error in the way the data is collected or simply just erroneous data. A closer look into how the collection of the data would give full insight into why it seems like most riders that ride longest are close to 80 years of age. Regardless of this, interesting insights can be made by observing these models.
+- - -
+## Intesting Day January 12, 2020
+<p align="center">
+  <img src="images/dash3.PNG" />
+</p>
+
+My final insight was to look deeper into the day that bikes were ridden the most. January 12th was a very peculiar day in this data set as this day saw the most riders by far compared to the rest of the month. While the 11th saw a similar increase in riders I can only assume that the fact that it was on a Saturday and Sunday are only part of the puzzle. Another reason for this could of been nicer weather than usual.
+
+<details>
+           <summary>Final Thoughts</summary>
+           <p>Since I only used a dataset for one month of the year this was as far as the inferences I was able to make. Had I used more data perhaps I would of been able to better understand how ridership is affected by other factors other than the weather. Also, from 2021 to current date the data has drastically changed and would like an identifying column to be added so both new and old data can be used together to make more meaningful reports.  </p>
+</details>
+ 
+
